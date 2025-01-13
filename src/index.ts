@@ -7,7 +7,7 @@ import apiRouter from "./api";
 
 const app = express();
 
-app.use(express.json());
+app.use(express.json());ffefefe
 
 app.use("/static",
     express.static("dist/public"),
